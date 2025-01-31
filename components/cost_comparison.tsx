@@ -98,7 +98,7 @@ const CostComparison = () => {
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis 
                 dataKey="date" 
-                tick={{ angle: -45, textAnchor: 'end' }} 
+                tick={{ transform: 'rotate(-45)', textAnchor: 'end' }} 
                 height={60}
               />
               <YAxis />
